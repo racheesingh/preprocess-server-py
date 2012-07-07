@@ -1,0 +1,446 @@
+<Directory "/AT">
+  <Directory "/AustrianAcademyofSciences,HEPHY">
+    LocalSite "T2_AT_Vienna"
+    HttpProxy "http://cmsgrid.oeaw.ac.at:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/BE">
+  <Directory "/Inter-UniversityInstituteforHighEnergyPhysics">
+    LocalSite "T2_BE_IIHE"
+    HttpProxy "http://frontier.iihe.ac.be:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversiteCatholiquedeLouvain">
+    LocalSite "T2_BE_UCL"
+    HttpProxy "http://ingrid-monbox.cism.ucl.ac.be:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/BR">
+  <Directory "/FUNDAÇÃODEAMPAROÀPESQUISADOESTADOSÃOPAULO">
+    LocalSite "T2_BR_SPRACE"
+    HttpProxy "http://frontier.sprace.org.br:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/BY">
+  <Directory "/NationalAcademyofSciencesofRepublicBelarus">
+    LocalSite "T3_BY_NCPHEP"
+    HttpProxy "http://mirror.hep.by:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/CH">
+  <Directory "/CERN-LHC">
+    LocalSite "T1_CH_CERN"
+    HttpProxy "http://cmst0frontier.cern.ch:3128;http://cmst0frontier.cern.ch:3128;http://cmst0frontier1.cern.ch:3128;http://cmst0frontier2.cern.ch:3128;DIRECT"
+  </Directory>
+  <Directory "/CERNRoutedBackbone">
+    LocalSite "T1_CH_CERN"
+    HttpProxy "http://cmst0frontier.cern.ch:3128;http://cmst0frontier.cern.ch:3128;http://cmst0frontier1.cern.ch:3128;http://cmst0frontier2.cern.ch:3128;DIRECT"
+  </Directory>
+  <Directory "/CERN-LHC">
+    LocalSite "T2_CH_CAF"
+    HttpProxy "http://cmst0frontier.cern.ch:3128;http://cmst0frontier.cern.ch:3128;http://cmst0frontier1.cern.ch:3128;http://cmst0frontier2.cern.ch:3128;DIRECT"
+  </Directory>
+  <Directory "/CentroSvizzerodiCalcoloScientifico">
+    LocalSite "T2_CH_CSCS"
+    HttpProxy "http://cmsvobox.lcg.cscs.ch:3128;DIRECT"
+  </Directory>
+  <Directory "/PaulScherrerInstitute">
+    LocalSite "T3_CH_PSI"
+    HttpProxy "http://t3frontier.psi.ch:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/CN">
+  <Directory "/InstituteofHighEnergyPhysics">
+    LocalSite "T2_CN_Beijing"
+    HttpProxy "http://vobox.ihep.ac.cn:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/DE">
+  <Directory "/ForschungszentrumKarlsruhe(FZK)">
+    LocalSite "T1_DE_KIT"
+    HttpProxy "http://cmssq1-fzk.gridka.de:3128|http://cmssq2-fzk.gridka.de:3128;DIRECT"
+  </Directory>
+  <Directory "/DESY,Hamburg">
+    LocalSite "T2_DE_DESY"
+    HttpProxy "http://t2-cms-db0.desy.de:3128|http://t2-cms-db1.desy.de:3128;DIRECT"
+  </Directory>
+  <Directory "/DESYZeuthen">
+    LocalSite "T2_DE_DESY"
+    HttpProxy "http://t2-cms-db0.desy.de:3128|http://t2-cms-db1.desy.de:3128;DIRECT"
+  </Directory>
+  <Directory "/Rechen-undKommunikationszentrumderRWTHAachen">
+    LocalSite "T2_DE_RWTH"
+    HttpProxy "http://grid-squid1.physik.rwth-aachen.de:3128|http://grid-squid2.physik.rwth-aachen.de:3128;DIRECT"
+  </Directory>
+  <Directory "/KarlsruherLichtwellenleiterKommunikationsnetz">
+    LocalSite "T3_DE_Karlsruhe"
+    HttpProxy "http://F01-010-115-e.gridka.de:3128;http://F01-010-116-e.gridka.de:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/EE">
+  <Directory "/InstituteofChemicalPhysicsandBiophysics,Esto">
+    LocalSite "T2_EE_Estonia"
+    HttpProxy "http://io.hep.kbfi.ee:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/ES">
+  <Directory "/ConsorciInstitutdeFisicaAltesEnergies">
+    LocalSite "T1_ES_PIC"
+    HttpProxy "http://squid01.pic.es:3129|http://squid02.pic.es:3129|http://squid03.pic.es:3129|http://squid04.pic.es:3129;DIRECT"
+  </Directory>
+  <Directory "/RedIRIS">
+    LocalSite "T2_ES_CIEMAT"
+    HttpProxy "http://lcgcalali.ciemat.es:3128;DIRECT"
+  </Directory>
+  <Directory "/InstitutodeFisicadeCantabria">
+    LocalSite "T2_ES_IFCA"
+    HttpProxy "http://squid01prv.ifca.es:3128|http://squid02prv.ifca.es:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/FI">
+  <Directory "/UniversityofHelsinki">
+    LocalSite "T2_FI_HIP"
+    HttpProxy "http://silo3.hip.helsinki.fi:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/FR">
+  <Directory "/InstitutNationaldePhysiqueNucleaireetdePhys">
+    LocalSite "T1_FR_CCIN2P3"
+    HttpProxy "http://cclcgcms01.in2p3.fr:3128|http://cclcgcms02.in2p3.fr:3128;DIRECT"
+  </Directory>
+  <Directory "/InstitutNationaldePhysiqueNucleaireetdePhys">
+    LocalSite "T2_FR_CCIN2P3"
+    HttpProxy "http://cclcgcms01.in2p3.fr:3128|http://cclcgcms02.in2p3.fr:3128;DIRECT"
+  </Directory>
+  <Directory "/InstitutNationaldePhysiqueNucleaireetdePhys">
+    LocalSite "T2_FR_IPHC"
+    HttpProxy "http://sbgce2.in2p3.fr:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/GR">
+  <Directory "/UniversityofIoannina">
+    LocalSite "T2_GR_Ioannina"
+    HttpProxy "http://grid01.physics.uoi.gr:3128|http://grid02.physics.uoi.gr:3128;DIRECT"
+  </Directory>
+  <Directory "/GreekResearchandTechnologyNetwork-Gridproje">
+    LocalSite "T3_GR_IASA_GR"
+    HttpProxy "http://cmsfrontier.marie.hellasgrid.gr:3128;DIRECT"
+  </Directory>
+  <Directory "/GreekResearchandTechnologyNetwork-Gridproje">
+    LocalSite "T3_GR_IASA_HG"
+    HttpProxy "http://cmsfrontier.marie.hellasgrid.gr:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/HU">
+  <Directory "/KFKIResearchInstituteforParticleand">
+    LocalSite "T2_HU_Budapest"
+    HttpProxy "http://grid158.kfki.hu:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/IN">
+  <Directory "/ERNET">
+    LocalSite "T2_IN_TIFR"
+    HttpProxy "http://192.168.2.206:3128;http://144.16.111.46:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/IT">
+  <Directory "/INFN(NationalInstituteofNuclearPhysics)">
+    LocalSite "T1_IT_CNAF"
+    HttpProxy "http://squid-cms-1.cr.cnaf.infn.it:3128|http://squid-cms-2.cr.cnaf.infn.it:3128|http://squid-cms-3.cr.cnaf.infn.it:3128;DIRECT"
+  </Directory>
+  <Directory "/INFN-SezionediBari">
+    LocalSite "T2_IT_Bari"
+    HttpProxy "http://pccms26.ba.infn.it:3128|http://cofin2003.ba.infn.it:3128;DIRECT"
+  </Directory>
+  <Directory "/INFN(NationalInstituteofNuclearPhysics)">
+    LocalSite "T2_IT_Legnaro"
+    HttpProxy "http://squid.lnl.infn.it:3128;DIRECT"
+  </Directory>
+  <Directory "/INFN-SezionediPisa">
+    LocalSite "T2_IT_Pisa"
+    HttpProxy "http://cmssquid.pi.infn.it:3128|http://cmssquid2.pi.infn.it:3128;DIRECT"
+  </Directory>
+  <Directory "/INFN(NationalInstituteofNuclearPhysics)">
+    LocalSite "T2_IT_Rome"
+    HttpProxy "http://cmsrm-frontier.roma1.infn.it:3128;DIRECT"
+  </Directory>
+  <Directory "/INFN(NationalInstituteofNuclearPhysics)">
+    LocalSite "T3_IT_Bologna"
+    HttpProxy "http://squid-cms-1.cr.cnaf.infn.it:3128|http://squid-cms-3.cr.cnaf.infn.it:3128;DIRECT"
+  </Directory>
+  <Directory "/INFN(NationalInstituteofNuclearPhysics)">
+    LocalSite "T3_IT_Padova"
+    HttpProxy "http://squid.lnl.infn.it:3128;DIRECT"
+  </Directory>
+  <Directory "/Universita'degliStudidiTrieste">
+    LocalSite "T3_IT_Trieste"
+    HttpProxy "http://farmsrv.ts.infn.it:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/KR">
+  <Directory "/KyungpookNationalUniversity">
+    LocalSite "T2_KR_KNU"
+    HttpProxy "http://cluster144.knu.ac.kr:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/MX">
+  <Directory "/CentrodeInvestigacionydeEstudiosAvanzadosde">
+    LocalSite "T3_MX_Cinvestav"
+    HttpProxy "http://higgs.fis.cinvestav.mx:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/NZ">
+  <Directory "/AUCKLA">
+    LocalSite "T3_NZ_UOA"
+    HttpProxy "http://glite-mon.ceres.auckland.ac.nz:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/PK">
+  <Directory "/PERN-PakistanEducation&ResearchNetworkisan">
+    LocalSite "T2_PK_NCP"
+    HttpProxy "http://pcncp04.ncp.edu.pk:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/PL">
+  <Directory "/PoznanSupercomputingandNetworkingCenter">
+    LocalSite "T2_PL_Warsaw"
+    HttpProxy "http://cms-vo.polgrid.pl:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/PT">
+  <Directory "/LIPCoimbra">
+    LocalSite "T2_PT_LIP_Coimbra"
+    HttpProxy "http://grid009.gridc.lip.pt:3128;DIRECT"
+  </Directory>
+  <Directory "/LaboratoriodeInstrumentacaoeParticulas">
+    LocalSite "T2_PT_LIP_Lisbon"
+    HttpProxy "http://squid-cms.lip.pt:3128;DIRECT"
+  </Directory>
+  <Directory "/InfraestruturasNacionaisdeGRID">
+    LocalSite "T2_PT_NCG_Lisbon"
+    HttpProxy "http://squid01.ncg.ingrid.pt:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/RU">
+  <Directory "/InstituteforHighEnergyPhysics">
+    LocalSite "T2_RU_IHEP"
+    HttpProxy "http://vobox0002-int.m45.ihep.su:3128;DIRECT"
+  </Directory>
+  <Directory "/InstituteforNuclearResearch">
+    LocalSite "T2_RU_INR"
+    HttpProxy "http://grinr06.inr.troitsk.ru:3128;DIRECT"
+  </Directory>
+  <Directory "/InstituteforTheoreticalandExperimentalPhysics">
+    LocalSite "T2_RU_ITEP"
+    HttpProxy "http://se1.itep.ru:3128;DIRECT"
+  </Directory>
+  <Directory "/JointInstituteforNuclearResearch">
+    LocalSite "T2_RU_JINR"
+    HttpProxy "http://lcgsqd.jinr.ru:3128;DIRECT"
+  </Directory>
+  <Directory "/PetersburgNuclearPhysicsInstituteofRAS">
+    LocalSite "T2_RU_PNPI"
+    HttpProxy "http://gt4.cluster.pnpi.nw.ru:3128;DIRECT"
+  </Directory>
+  <Directory "/MainnetworkofKurchatovInstitute">
+    LocalSite "T2_RU_RRC_KI"
+    HttpProxy "http://muon.grid.kiae.ru:3128;DIRECT"
+  </Directory>
+  <Directory "/ENTERPRISE">
+    LocalSite "T2_RU_SINP"
+    HttpProxy "http://lcg45.sinp.msu.ru:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/TR">
+  <Directory "/NationalNationalGridInitiative">
+    LocalSite "T2_TR_METU"
+    HttpProxy "http://frontier.ulakbim.gov.tr:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/TW">
+  <Directory "/ASGC">
+    LocalSite "T1_TW_ASGC"
+    HttpProxy "http://lcg00114.grid.sinica.edu.tw:3128;http://squid01.grid.sinica.edu.tw:3128;http://squid02.grid.sinica.edu.tw:3128;DIRECT"
+  </Directory>
+  <Directory "/ASGC">
+    LocalSite "T2_TW_Taiwan"
+    HttpProxy "http://lcg00114.grid.sinica.edu.tw:3128;http://squid01.grid.sinica.edu.tw:3128;http://squid02.grid.sinica.edu.tw:3128;DIRECT"
+  </Directory>
+  <Directory "/ASGC">
+    LocalSite "T3_TW_NCU"
+    HttpProxy "http://lcg00114.grid.sinica.edu.tw:3128;DIRECT"
+  </Directory>
+  <Directory "/ASGC">
+    LocalSite "T3_TW_NTU_HEP"
+    HttpProxy "http://lcg00114.grid.sinica.edu.tw:3128;http://squid01.grid.sinica.edu.tw:3128;http://squid02.grid.sinica.edu.tw:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/UA">
+  <Directory "/UARNet">
+    LocalSite "T2_UA_KIPT"
+    HttpProxy "http://cms-gate.kipt.kharkov.ua:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/GB">
+  <Directory "/ScienceandTechnologyFacilitesCouncil">
+    LocalSite "T1_UK_RAL"
+    HttpProxy "http://lcgsquid01.gridpp.rl.ac.uk:3128|http://lcgsquid01.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/BrunelUniversityNetwork">
+    LocalSite "T2_UK_London_Brunel"
+    HttpProxy "http://lcgsquid01.gridpp.rl.ac.uk:3128|http://lcgsquid01.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/TheUniversityofBristol">
+    LocalSite "T2_UK_SouthGrid_Bristol"
+    HttpProxy "http://lcgsquid01.gridpp.rl.ac.uk:3128|http://lcgsquid01.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/OxfordUniversity">
+    LocalSite "T3_UK_SGrid_Oxford"
+    HttpProxy "http://lcgsquid01.gridpp.rl.ac.uk:3128|http://lcgsquid01.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/ImperialCollegeLondon">
+    LocalSite "T2_UK_London_IC"
+    HttpProxy "http://cmscache01.grid.hep.ph.ic.ac.uk:3128;http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/ScienceandTechnologyFacilitesCouncil">
+    LocalSite "T2_UK_SGrid_RALPP"
+    HttpProxy "http://hepsquid01.pp.rl.ac.uk:3128;http://hepsquid02.pp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/ScienceandTechnologyFacilitesCouncil">
+    LocalSite "T2_UK_SouthGrid_RALPPD"
+    HttpProxy "http://cms-squid.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/QueenMaryandWestfieldCollege">
+    LocalSite "T3_UK_London_QMUL"
+    HttpProxy "http://frontiercache.esc.qmul.ac.uk:3128;http://cmscache01.grid.hep.ph.ic.ac.uk:3128;http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/RoyalHollowayandBedfordNewCollege">
+    LocalSite "T3_UK_London_RHUL"
+    HttpProxy "http://squid1.ppgrid1.rhul.ac.uk:3128;http://cmscache01.grid.hep.ph.ic.ac.uk:3128;http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/ImperialCollegeLondon">
+    LocalSite "T3_UK_London_UCL"
+    HttpProxy "http://cmscache00.hep.ph.ic.ac.uk:3128;http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/ScienceandTechnologyFacilitesCouncil">
+    LocalSite "T3_UK_SGrid_Oxford"
+    HttpProxy "http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/ImperialCollegeLondon">
+    LocalSite "T3_UK_ScotGrid_DUR"
+    HttpProxy "http://cmscache00.hep.ph.ic.ac.uk:3128;http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofGlasgow">
+    LocalSite "T3_UK_ScotGrid_ECDF"
+    HttpProxy "http://nat005.gla.scotgrid.ac.uk:3128;http://cmscache01.grid.hep.ph.ic.ac.uk:3128;http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofGlasgow">
+    LocalSite "T3_UK_ScotGrid_GLA"
+    HttpProxy "http://nat005.gla.scotgrid.ac.uk:3128;http://cmscache01.grid.hep.ph.ic.ac.uk:3128;http://cms-squid.gridpp.rl.ac.uk:3128;http://lcgsquid01.gridpp.rl.ac.uk:3128;http://lcgsquid02.gridpp.rl.ac.uk:3128;DIRECT"
+  </Directory>
+</Directory>
+<Directory "/US">
+  <Directory "/Fermilab">
+    LocalSite "T1_US_FNAL"
+    HttpProxy "http://cmsfrontier1.fnal.gov:3128|http://cmsfrontier2.fnal.gov:3128|http://cmsfrontier3.fnal.gov:3128|http://cmsfrontier4.fnal.gov:3128;DIRECT"
+  </Directory>
+  <Directory "/UltraLight">
+    LocalSite "T2_US_Caltech"
+    HttpProxy "http://10.3.255.184:3128|http://10.3.255.249:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofFlorida">
+    LocalSite "T2_US_Florida"
+    HttpProxy "http://squid.ihepa.ufl.edu:3128|http://squid2.ihepa.ufl.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/MassachusettsInstituteofTechnology">
+    LocalSite "T2_US_MIT"
+    HttpProxy "http://squid.cmsaf.mit.edu:3128|http://squid1.cmsaf.mit.edu:3128|http://squid2.cmsaf.mit.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofNebraska-Lincoln">
+    LocalSite "T2_US_Nebraska"
+    HttpProxy "http://red-squid1.unl.edu:3128|http://red-squid2.unl.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/PurdueUniversity">
+    LocalSite "T2_US_Purdue"
+    HttpProxy "http://squid.rcac.purdue.edu:3128;http://osg.rcac.purdue.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofCalifornia,SanDiego">
+    LocalSite "T2_US_UCSD"
+    HttpProxy "http://proxy-1.t2.ucsd.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/VanderbiltUniversity">
+    LocalSite "T2_US_Vanderbilt"
+    HttpProxy "http://fs1.accre.vanderbilt.edu:3128|http://fs2.accre.vanderbilt.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofWisconsinMadison">
+    LocalSite "T2_US_Wisconsin"
+    HttpProxy "http://frontier01.hep.wisc.edu:3128|http://frontier02.hep.wisc.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofColorado">
+    LocalSite "T3_US_Colorado"
+    HttpProxy "http://hepgums.colorado.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/CornellUniversity">
+    LocalSite "T3_US_Cornell"
+    HttpProxy "http://cms-dm.cac.cornell.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/FloridaInstituteofTechnology">
+    LocalSite "T3_US_FIT"
+    HttpProxy "http://uscms1-se.fltech-grid3.fit.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/Fermilab">
+    LocalSite "T3_US_FNALXEN"
+    HttpProxy "http://cms-xen19.fnal.gov:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofNotreDame">
+    LocalSite "T3_US_NotreDame"
+    HttpProxy "http://ndcms.crc.nd.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofNebraska-Lincoln">
+    LocalSite "T3_US_Omaha"
+    HttpProxy "http://10.158.50.7:3128;http://red-squid1.unl.edu:3128;http://red-squid2.unl.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/RiceUniversity-Sesquinet">
+    LocalSite "T3_US_Rice"
+    HttpProxy "http://osg-gate.rice.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/RutgersUniversity">
+    LocalSite "T3_US_Rutgers"
+    HttpProxy "http://ruhex-squid.rutgers.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/TexasA&MUniversity">
+    LocalSite "T3_US_TAMU"
+    HttpProxy "http://hurr.tamu.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/TexasTechUniversity">
+    LocalSite "T3_US_TTU"
+    HttpProxy "http://hugin.hpcc.ttu.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofCalifornia,Davis">
+    LocalSite "T3_US_UCD"
+    HttpProxy "http://agent.tier3.ucdavis.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofCalifornia,Riverside">
+    LocalSite "T3_US_UCR"
+    HttpProxy "http://charm.hep.int:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofIowa">
+    LocalSite "T3_US_UIowa"
+    HttpProxy "http://grow-prod.its.uiowa.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofMaryland">
+    LocalSite "T3_US_UMD"
+    HttpProxy "http://hepcms-hn.umd.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofMississippi">
+    LocalSite "T3_US_UMiss"
+    HttpProxy "http://umiss005.hep.olemiss.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/VanderbiltUniversity">
+    LocalSite "T3_US_Vanderbilt"
+    HttpProxy "http://fs1.accre.vanderbilt.edu:3128|http://fs2.accre.vanderbilt.edu:3128;DIRECT"
+  </Directory>
+  <Directory "/UniversityofWisconsinMadison">
+    LocalSite "T3_US_Wisconsin"
+    HttpProxy "http://cache01.hep.wisc.edu:3128|http://cache02.hep.wisc.edu:3128"
+  </Directory>
+</Directory>
